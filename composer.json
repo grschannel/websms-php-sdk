@@ -1,0 +1,21 @@
+{
+    "name": "websms/php-sdk",
+    "description": "A PHP wrapper for WebSms API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammad Hosseini",
+            "email": "webp1995@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Websms\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
